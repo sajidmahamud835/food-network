@@ -1,0 +1,33 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 60px;
+}
+.colored-text{
+    color: blueviolet;
+}
+p{
+    font-size: 20px;
+    color: #828282;
+    margin: 2em 0em;
+}
+#top-banner{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    margin-left: 100px;
+}
+.half-width img{
+    width: 80%;
+}
+.call-to-action-button{
+    text-decoration: none;
+    color: white;
+    background: 16px;
+    background-image: linear-gradient(blueviolet,blue );
+    border-radius: 16px;
+    padding: 16px;
+    margin-top: 100px;
+}
