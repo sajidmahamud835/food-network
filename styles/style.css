@@ -16,9 +16,8 @@ h3{
 }
 p{
     font-size: 18px;
-    font-weight: normal;
     color: #828282;
-    margin: 2em 0em;
+    margin: 2em 0;
 }
 section{
     margin-bottom: 150px;
@@ -30,7 +29,7 @@ section{
     width: 50%;
     margin-left: 100px;
 }
-.half-width img{
+#resized-image{
     width: 80%;
 }
 .call-to-action-button{
