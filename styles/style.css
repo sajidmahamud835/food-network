@@ -8,17 +8,20 @@ h1{
 h2{
     font-size: 54px;
 }
+h3{
+    font-size: 28px;
+}
 .colored-text{
     color: blueviolet;
 }
 p{
-    font-size: 20px;
-    
+    font-size: 18px;
+    font-weight: normal;
     color: #828282;
     margin: 2em 0em;
 }
 section{
-    margin-top: 120px;
+    margin-bottom: 150px;
 }
 #banner{
     display: flex;
@@ -43,15 +46,19 @@ section{
     background-image: url(/image/about-me-bg.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    padding-top: 10%;
-    padding-bottom: 25%;
+    width: 100%;
+    height: 600px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 #about-text{
     margin-left: 50%;
 }
 #recipies{
     text-align: center;
-    max-width: 80%;
+    max-width: 60%;
+    margin-left: 15%;
+    margin-right: 15%;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -59,22 +66,25 @@ section{
     display: flex;
 }
 .recipe-box{
-    border-radius: 5%;
-    box-shadow: 5px 10px 18px gray;
-    width: 90%;
+    border-radius: 15px;
+    box-shadow: 3px 7px 18px gray;
+    width: 100%;
     padding: 2% 1%;
-    margin: 3%;
+    margin: 2%;
 }
 .recipe-box img{
-    width: 90%;
+    width: 92%;
     height: 256px;
+    border-radius: 10%;
+    margin-left: 4%;
+    margin-right:4%;
 }
 #order{
     background-image: url(/image/order-bg.png);
     background-repeat: no-repeat;
     background-size: 100%;
     padding-top: 5%;
-    padding-bottom: 25%;
+    padding-bottom: 5%;
 }
 #order-form{
     text-align: center;
@@ -100,4 +110,28 @@ input{
     background-image: linear-gradient(180deg,#FBA24F,#FF1E1E );
     border-radius: 16px;
 }
+#statics-box{
+    display: flex;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    box-shadow: 3px 7px 18px gray;
+    border-radius: 25px;
+}
+.statics{
+    padding: 10px;
+    margin-left: 10%;
+}
+footer{
+    background: #0B0D17;
+    height: 200px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding-top: 10px;
 
+}
+#colored-text2{
+    color: green;
+}
